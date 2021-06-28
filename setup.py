@@ -58,7 +58,7 @@ setup(
         'pyqt5',
         'lxml',
         'Pillow', 
-        'ebooklib',
+        #'ebooklib',
         'pdfminer.six',
         'ply',
         'chardet',
@@ -73,6 +73,6 @@ setup(
         'locale/en/LC_MESSAGES/en,mo',]
     },
     zip_safe=False,
-    include_package_data=True
+    include_package_data=True,
     **extra_options
 )

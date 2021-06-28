@@ -62,8 +62,8 @@ except:  # ModuleNotFoundError
     text += "For Windows run the following in the command prmpt: pip install pdfminer.six"
     QtWidgets.QMessageBox.critical(None, _('pdfminer is not installed.'), _(text))
 
-import ebooklib
-from ebooklib import epub
+#import ebooklib
+#from ebooklib import epub
 
 from .add_attribute import DialogAddAttribute
 from .add_item_name import DialogAddItemName
